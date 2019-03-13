@@ -1,7 +1,10 @@
 h1 {font-family: Arial, sans-serif;
+	background-color:none;
 }
 
-body{background-color: white; }
+body{background-color: none; 
+background-image: url("../images/hol.jpg");
+}
 
 nav ul {
 	list-style: none;
