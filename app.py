@@ -16,5 +16,5 @@ def get_feedback():
 	data = request.values
 	return render_template("feedback.html", form_data=data)
 
-
-app.run(debug=True)
+if __name__ == '__main__':
+	app.run(debug=True)
